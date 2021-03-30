@@ -14,7 +14,7 @@ form.addEventListener('submit', (e)=>{
     data.name = name.value;
     data.message = message.value;
 
-    sendData().then();
+    sendData();
 });
 
 
